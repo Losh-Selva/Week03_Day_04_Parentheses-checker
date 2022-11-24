@@ -24,6 +24,8 @@ public class ParenthesesChecker {
                     || String.valueOf(string.charAt(i)).equals(">")) {
                 closedBracketCounter++;
             }*/
+
+            //MVP WITH EXTENSIONS
             switch (String.valueOf(string.charAt(i))){
                 case "(" :
                     checkStack.push(")");
